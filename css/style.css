@@ -89,6 +89,7 @@ background-attachment: fixed;
 
 }
 
+
 .Bienvenidos  {
     height: 800px;
     text-align: left;
@@ -221,7 +222,16 @@ margin-bottom: 30px;
 @media screen and (max-width: 850px){
   .grid-galeria{
   grid-template-columns: repeat(2, 1fr);
+
+
   
 
   }
+}
+
+@media screen and (max-width: 500px) {
+    .grid-galeria{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
 }
