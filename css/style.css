@@ -582,7 +582,7 @@ header{
         height: 100vh;
 
         right: -100%;
-        background-color: #020736E0;
+        background-color: #515156e0;
         top:0;
         text-align: center;
         padding: 100 0px;
@@ -611,4 +611,28 @@ header{
     .primero img{
         left: 2%;
     }
+}
+
+.serv{
+    height:600px ;
+    display: flex;
+    justify-content: space-around;
+
+}
+.serv img{
+    height: 300px;
+    width: 400px;
+
+
+}
+.serv h2{
+    color:aliceblue;
+    text-shadow: 0 0 10px rgb(81, 74, 74),
+    0 0 10px rgb(81, 74, 74),
+    0 0 10px rgb(81, 74, 74);
+
+}
+
+.serv h2 span{
+    color: rgb(43, 43, 163);
 }
